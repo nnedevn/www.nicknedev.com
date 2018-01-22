@@ -4,7 +4,7 @@ import React from 'react';
 
 
 const Contact = () => (
-  <div>About page</div>  
+  <div>Contact page</div>  
 );
 
 export default Contact
