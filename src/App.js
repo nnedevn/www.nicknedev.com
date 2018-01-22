@@ -3,7 +3,7 @@ import './App.css';
 // Import Components
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -19,7 +19,7 @@ class App extends Component {
 
 
 
-
+      <Footer />
       </div>
 
 

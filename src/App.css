@@ -191,6 +191,14 @@ margin-right: 0 !important;
 
 /*end form mess*/
 
+footer {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
 footer ul {
   border-top: 1px dashed #00000F;
   margin-top: 3em;
