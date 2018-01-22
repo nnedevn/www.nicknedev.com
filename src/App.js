@@ -11,17 +11,8 @@ class App extends Component {
       <div className="container">
         <Header />
         <Navbar />
-
-
-        
-
-
-
-
-
-      <Footer />
+      
       </div>
-
 
     );
   }

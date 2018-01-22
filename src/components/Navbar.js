@@ -9,6 +9,7 @@ import {
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const Navbar = () => (
   <Router>
@@ -27,8 +28,10 @@ const Navbar = () => (
 
       <Route exact path="/" component={About} />
       <Route exact path="/projects" component={Projects} />
-      <Route exact path="/contact" component={Contact} />
+      <Route exact path="/contact" component={Contact} /> 
+      <Footer/>
     </div>
+   
   </Router>
 );
 

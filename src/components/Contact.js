@@ -1,7 +1,4 @@
 import React from 'react';
-/* Import Router */
-
-
 
 const Contact = () => (
   <div className="container site-content">
@@ -9,7 +6,7 @@ const Contact = () => (
       <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div id="form-messages" className="alert alert-dismissible" role="alert">
           <button type="button" className="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            {/* <span aria-hidden="true">&times;</span> */}
           </button>
         </div>
 
